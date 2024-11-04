@@ -1,0 +1,63 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add React to a Website</title>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="./src/styles.css" />
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+</head>
+
+<body>
+
+    <div id="root"></div>
+
+    <script type="text/babel">
+
+        var root = ReactDOM.createRoot(document.getElementById('root'))
+
+        const jsxElement = (
+            <header className='what-dafuc'>
+                <h1>Pero estamos locos o que</h1>
+                <p>Qué tipo de dato es este madre mia por favor me muero :3</p>
+            </header>
+        )
+
+        root.render(jsxElement)
+
+
+
+        // var root = ReactDOM.createRoot(document.getElementById('root'));
+
+        // var jsxElement = React.createElement(
+        //     "header",
+        //     {
+        //         className: "what-dafuc"
+        //     },
+        //     React.createElement(
+        //         "h1",
+        //         null,
+        //         "Pero estamos locos o que"),
+        //     React.createElement(
+        //         "p",
+        //         null,
+        //         "Qu\xE9 tipo de dato es este madre mia por favor me muero :3"
+        //     )
+        // )
+
+        // root.render(jsxElement);
+
+
+
+    </script>
+
+</body>
+
+</html>

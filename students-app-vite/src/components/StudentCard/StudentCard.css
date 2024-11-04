@@ -1,0 +1,12 @@
+.StudentCard {
+    width: 30%;
+    display: inline-block;
+    border: 1px solid;
+    margin: 10px;
+}
+
+.StudentCard img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
